@@ -1,0 +1,16 @@
+1641927884409	geckodriver	INFO	Listening on 127.0.0.1:53415
+1641927884931	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53416" "-foreground" "-no-remote" "-profile" "/var/folders/37/pg6m3scj5tq__g0x3x5g2y7w0000gn/T/rust_mozprofileXFN5Tl"
+1641927904584	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/37/pg6m3scj5tq__g0x3x5g2y7w0000gn/T/rust_mozprofileXFN5Tl/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53416/devtools/browser/41cca42d-4fc7-46f9-8e33-3565b9fc67c9
+1641927906023	Marionette	INFO	Listening on port 53421
+1641927906121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 4452 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1641927933824	Marionette	INFO	Stopped listening on port 53421
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
