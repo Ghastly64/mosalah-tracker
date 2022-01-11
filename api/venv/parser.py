@@ -1,5 +1,5 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options
 from flask import Flask
 import numpy as np;
 import time
@@ -25,6 +25,8 @@ assists = driver.find_element_by_class_name('statgoal_assist').text
 
 names = ['appearances', 'goals', 'wins', 'losses', 'penalities_scored', 'shoot_acc', 'assists']
 stats = [appearances, goals, wins, losses, penalities_scored, shoot_acc, assists]
+
+driver.quit()
 
 app = Flask(__name__)
 
