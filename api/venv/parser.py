@@ -7,7 +7,7 @@ import time
 
 options = Options()
 options.headless = True
-driver = webdriver.Firefox()
+driver = webdriver.Firefox(options=options)
 driver.get('https://www.premierleague.com/players/5178/Mohamed-Salah/stats')
 time.sleep(5)
 
