@@ -1,4 +1,5 @@
 
+<img src="app.png" alt="picture of app" width="400"/>
 
 ## Required Libraries
 
