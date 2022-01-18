@@ -1,6 +1,8 @@
 
 <img src="app.png" alt="picture of app" width="400"/>
 
+Live tracker for Egyptian Football Player Mohamed Salah using data from the premier league website
+
 ## Required Libraries
 
 Selenium, Flask, python-dotenv
